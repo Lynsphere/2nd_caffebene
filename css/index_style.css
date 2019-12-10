@@ -291,6 +291,7 @@ body {
 #event > div > ul > li {
     text-align: left;
     line-height: 27px;
+    font-weight: bold;
 }
 #event > div > ul > li > span {
     float: right;
