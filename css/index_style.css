@@ -129,9 +129,6 @@ body {
 #gnb > .depth1 > li > a:hover {
     border-bottom: 3px solid #0093a2;
 }
-#gnb > .depth1 > li:first-child > a:hover {
-    border-bottom: 3px solid #ede4df;
-}
 
 /* 2단계 메뉴 */
 /* 클래스 동시 선택 시 띄어쓰기 주의 */
