@@ -1,4 +1,4 @@
-/* style.css */
+﻿/* style.css */
 
 /* reset */
 * {margin:0; padding: 0;
@@ -118,7 +118,7 @@ body {
 /* 2단계 메뉴 */
 /* 클래스 동시 선택 시 띄어쓰기 주의 */
 #gnb .depth2.show_menu {
-    background: rgba(237, 228, 223, 0.7);
+    background: rgba(237, 228, 223, 1);
     height: 250px;
     overflow: hidden;
     /* outline: 1px solid green; */
@@ -161,7 +161,7 @@ body {
     height: 0px;
     z-index: 99;
     text-indent: -9999px;
-    background: rgba(237, 228, 223, 0.7);
+    background: rgba(237, 228, 223, 1);
     transition-duration: 0.4s;
     /* outline: 1px solid red; */
 }
