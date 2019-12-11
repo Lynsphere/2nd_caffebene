@@ -19,17 +19,23 @@
 }
 .indicator {
     position: relative;
-    z-index: 99;
     opacity: 1;
     left:50%;
     padding-top: 380px;
     /* border: 1px solid red; */
 }
 .indicator a {
-    font-size: 0.5em;
-    letter-spacing: 5px;
-    color: #333;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #666;
+    font-size: 1em;
+    margin: 4px;
+    color: #666;
+    border-radius: 20px;
+    text-indent: -9999px;
 }
 .indicator > a.show {
-    color: #0093a2 ;
+    background: #0093a2;
+    color: #0093a2;
 }

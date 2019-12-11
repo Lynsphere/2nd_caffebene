@@ -126,8 +126,6 @@ body {
 #gnb .depth2 {
     position: absolute;
     width: 100%;
-    /* width: calc(100% + 249px);
-    left: -249px; */
     height: 0;
     overflow: hidden;
     transition-duration: 0.4s;
@@ -176,11 +174,12 @@ body {
 #main_banner {
     top: -3px;
     position: relative;
-    z-index: -1;
+    height: 406px;
     min-width: 1200px;
     max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
+    margin-bottom: 40px;
 }
 #main_banner .slider img { 
     width: 100%; 
@@ -203,35 +202,34 @@ body {
 #notice > h2 {
     height: 42px;
     float: left;
-    padding: 0 96px;
+    padding: 0 80px;
     padding-top: 7px;
     font-size: 18px;
     font-weight: bold;
     color: #3a466a;
     /* background: #000; */
 }
-#notice > div > ul > li {
-    display: block;
+#notice > div {
     float: left;
-    
+}
+#notice > div > ul > li {
+    display: inline-block;
+    height: 42px;
+    line-height: 36px;
+    width: 400px;
     font-size: 16px;
     font-weight: bold;
-    padding-top: 7px;
-    /* background: #ccc; */
-    padding-right:20px
+    /* outline: 1px solid red; */
+}
+#notice > div > ul > li:last-child {
+    margin-left: 80px;
 }
 #notice > div > ul > li > a {
-    display: block;
     width: 400px;
     text-align: left;
     /* background: #ccc; */
 }
-#notice > div > ul > li > a:first-child {
-    margin-left: 40px;
-}
 #notice > div > ul > li > .date {
-    position: relative;
-    top:-19px;
     float: right;
 }
 #event_title {
@@ -247,7 +245,7 @@ body {
     padding-left: 29px;
     /* background: #ccc; */
     margin-right: 18px;
-   float: left;
+    float: left;
 }
 #event_title > div {
     /* background: #aaa; */
