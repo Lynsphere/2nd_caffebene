@@ -235,43 +235,50 @@ body {
 #event_title {
     width: 537px;
     height: 162px;
-    display: inline-block;
     /* outline: 1px solid red; */
 }
 #event_title > .sub_title {
     width: 249px;
     font-size: 40px;
     font-weight: bold;
-    padding: 30px 28px;
+    padding-top: 42px;
+    padding-left: 29px;
+    /* background: #ccc; */
+    margin-right: 18px;
     float: left;
 }
 #event_title > div {
-    padding: 50px 0;
-    height: 162px;
+    /* background: #aaa; */
     font-weight: bold;
     color: #282828;
     line-height: 27px;
 }
+#event_title > div > p {
+    padding-top: 61px;
+}
 #event_bar {
     position: relative;
     float: right;
-    top: -68px;
+    top: -70px;
+    left: 20px;
     width: 2px;
     height: 83px;
     background: #828282;
     text-indent: -9999px;
 }
 #event {
-    display: inline-block;
+    position: relative;
+    top: -182px;
+    float: right;
     width: 600px;
     height: 162px;
-    margin-left: 54px;
     padding-top: 30px;
     /* outline: 1px solid green; */
 }
 
 #event > h3 {
-    padding-top:35px;
+    position: relative;
+    top:25px;
     font-size: 16px;
     color: #00929d;
     height: 162px;
@@ -283,13 +290,7 @@ body {
     color: #828282;
 }
 #event > div {
-    height: 162px;
     margin-left: 103px;
-    /* outline: 1px solid red; */
-}
-#event > div >ul {
-    position: relative;
-    top: 10px;
 }
 #event > div > ul > li {
     text-align: left;
@@ -304,10 +305,10 @@ body {
 /* 메뉴소개 */
 #items {
     position: relative;
+    top: -130px;
     width: 1200px;
     overflow: hidden;
     margin: 0 auto;
-    margin-top:60px;
 }
 #items > div {
     text-align: center;
@@ -360,8 +361,12 @@ body {
 
 /* 파트너십 안내 */
 
+#fap_banner {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
 #fap_banner > img {
-    margin-top: 100px;
     margin-bottom: 10px;
 }
 #fap_banner {
