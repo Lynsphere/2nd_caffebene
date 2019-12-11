@@ -223,7 +223,7 @@ body {
 }
 #notice > div > ul > li > .date {
     position: relative;
-    top:-20px;
+    top:-19px;
     float: right;
 }
 #event_title {
