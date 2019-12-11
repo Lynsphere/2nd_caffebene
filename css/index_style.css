@@ -93,21 +93,6 @@ body {
 }
 
 /* 1단계 메뉴 */
-#gnb_bg {
-    position: absolute;
-    width: 100%;
-    top: 258px;
-    height: 0px;
-    z-index: 99;
-    text-indent: -9999px;
-    background: rgba(237, 228, 223, 0.7);
-    transition-duration: 0.4s;
-    /* outline: 1px solid red; */
-}
-#gnb_bg.show{
-    height: 252px;
-}
-
 #gnb > .depth1 > li {
     position: relative;
     float: left;
@@ -132,7 +117,7 @@ body {
 
 /* 2단계 메뉴 */
 /* 클래스 동시 선택 시 띄어쓰기 주의 */
-#gnb .depth2.show {
+#gnb .depth2.show_menu {
     background: rgba(237, 228, 223, 0.7);
     height: 250px;
     overflow: hidden;
@@ -162,10 +147,26 @@ body {
 #gnb .depth2 a:hover {
     color: #0093a2;
 }
+/* 2단계 메뉴 배경 */
+#gnb_bg {
+    position: absolute;
+    width: 100%;
+    top: 258px;
+    height: 0px;
+    z-index: 99;
+    text-indent: -9999px;
+    background: rgba(237, 228, 223, 0.7);
+    transition-duration: 0.4s;
+    /* outline: 1px solid red; */
+}
+#gnb_bg.show_menu{
+    height: 252px;
+}
+
 
 /* 메인배너 */
 #main_banner {
-    top: -2px;
+    top: -3px;
     position: relative;
     z-index: -1;
     min-width: 1200px;
