@@ -5,14 +5,14 @@ $(function() {
     // 마우스 오버시 메뉴 열림
     $('.depth1 > li').mouseover(function(){
         // class추가되면 보임
-        $('.depth2').addClass('show');
-        $('#gnb_bg').addClass('show');
+        $('.depth2').addClass('show_menu');
+        $('#gnb_bg').addClass('show_menu');
     });
 
     // 마우스가 나가면 메뉴 닫힘
     $('.depth1 > li').mouseout(function(){
-        $('.depth2').removeClass('show');
-        $('#gnb_bg').removeClass('show');
+        $('.depth2').removeClass('show_menu');
+        $('#gnb_bg').removeClass('show_menu');
     })
 });
 
