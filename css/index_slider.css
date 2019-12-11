@@ -2,7 +2,7 @@
 
 .slider {
     position: relative;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     max-width: 1200px;
     min-width: 1200px;
     padding-bottom: 40px;
@@ -31,5 +31,5 @@
     color: #333;
 }
 .indicator > a.show {
-    color: #999;
+    color: #0093a2 ;
 }
