@@ -144,6 +144,14 @@ body {
     /* outline: 1px solid red; */
     padding: 10px;
 }
+#gnb > .depth1 > li:nth-child(2) > ul > li{
+    /* outline: 1px solid green; */
+    padding-left: 15px;
+}
+#gnb > .depth1 > li:nth-child(5) > ul > li{
+    /* outline: 1px solid green; */
+    padding-left: 25px;
+}
 #gnb .depth2 a:hover {
     color: #0093a2;
 }
