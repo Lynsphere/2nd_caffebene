@@ -74,6 +74,7 @@ ul, ol { list-style-type: none;}
 
 
 .tabWrap{
+    min-width: 1200px;
     padding-top: 30px;
     text-align: center;
 }
