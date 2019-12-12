@@ -1,4 +1,4 @@
-/* 색상 정보
+﻿/* 색상 정보
 
 메인(로고글씨) : #3a466a
 
@@ -26,6 +26,7 @@ ul, ol { list-style-type: none;}
     height: 150px;
     background: #0093a2;
     margin: 0 auto;
+    margin-bottom: 10px;
 }
 
 #navigation > h2{
@@ -196,4 +197,8 @@ ul, ol { list-style-type: none;}
     float: right;
     /* margin-right: 100px; */
     margin-top: 61px;
+}
+#sns_icon a:nth-child(2){
+    margin-left: 10px;
+    margin-right: 10px;
 }

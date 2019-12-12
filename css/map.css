@@ -1,0 +1,119 @@
+/* 색상 정보
+
+메인(로고글씨) : #3a466a
+
+서브(로고이미지) : #0093a2
+
+헤더바탕 : #ede4df
+
+메인폰트색상 : #1e1e1e */
+
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+a { 
+    text-decoration: none;
+    color: #1e1e1e;
+}
+ul, ol { list-style-type: none;}
+
+#map_container {
+    min-width: 1200px;
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    /* border-top: 2px solid #0093a2; */
+}
+
+.map_search {
+    width: 300px;
+    height: 280px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 2;
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    margin: 0 auto;
+}
+.map_search .tab_content{
+    height: 51px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    display: inline-block;
+    border-bottom: black;
+}
+
+.map_search .tab_content a {
+    display: inline-block;
+    width: 146px;
+    height: 51px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 52px;
+    color: #3a466a;
+    font-weight: bold;
+}
+.map_search .tab_content a:hover{
+    border-bottom: 1px solid #0093a2;
+    color: #0093a2;
+}
+
+.select_box{
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.select_box > .select {
+    padding: absolute;
+    width: 117px;
+    height: 33px;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.map_search .search_box {
+    padding: 0 15px;
+    font-size: 12px;
+    line-height: 18px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+.map_search .search_box .text_box{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.map_search .search_box .check_box{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.map_search .search_box .shop_search{
+    display: block;
+    width: 190px;
+    height: 42px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 42px;
+    color: #ede4df;
+    text-align: center;
+    background: #3a466a;
+}
+
+
+.map_content{
+    position: relative;
+}
+
+iframe{
+    margin: auto;
+}

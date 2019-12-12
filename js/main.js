@@ -98,8 +98,15 @@ $(function(){
         return false;
     });
     
-    
-
-    
 }); 
 
+
+$(function(){
+    //팝업창 표시(기본)
+    $('.popup').addClass('popshow');
+
+    //닫기 버튼 클릭시 팝업창 종료
+    $('#btn_close').click(function(){
+        $('.popup').removeClass('popshow');
+    })
+});

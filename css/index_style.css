@@ -39,7 +39,6 @@ body {
 }
 #lnb > ul > li {
     display: inline-block;
-    /* outline: 1px solid red; */
 }
 #lnb > ul > li > a{
     height: 30px;
@@ -54,7 +53,7 @@ body {
 #lnb > ul > li > a > img {
     vertical-align: middle;
 }
-#lnb > ul > li:first-child > a {
+#lnb > ul > li > a:first-child {
     margin-right: 20px;
 }
 
@@ -197,9 +196,10 @@ body {
 }
 #notice {
     width: 1200px;
-    height: 42px;
-    border: 3px dashed #0093a2;
+    height: 52px;
+    border: 2px dashed #0093a2;
     margin-bottom: 39px;
+    padding-top:7px
 }
 #notice > h2 {
     height: 42px;
